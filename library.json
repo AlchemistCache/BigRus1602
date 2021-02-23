@@ -1,0 +1,29 @@
+{
+  "name": "BigRus1602.h",
+  "version": "1.0.0",
+  "keywords": "LCD, liquidcrystal, display, Russian language, LCD keypad shield",
+  "description": "Вывод крупных русских букв на модуль LCDKeypadShield",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/AlchemistCache/BigRus1602"
+  },
+  "authors": 
+    {
+      "name": "Alchemist",
+      "email": "alchemist@gmail.com",
+      "url": "http://www.technomagic.com",
+      "maintainer": true
+    },
+  "dependencies":
+  {
+    "name": "LiquidCrystal",
+    "authors": "Arduino, Adafruit",
+    "frameworks": "arduino"
+  },
+  "frameworks": "arduino",
+  "platforms": 
+  [
+    "atmelavr"
+  ]
+}

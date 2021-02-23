@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map For BigRus1602
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+BigChar	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+print	KEYWORD2
+scrollText	KEYWORD2
+getCarret	KEYWORD2
+bufSize KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
