@@ -6,7 +6,7 @@
 
 #include "Arduino.h"
 #include "LiquidCrystal.h"
-#include <avr/pgmspace.h> //инициализируем работу с программнуой памятью
+#include <avr/pgmspace.h> //инициализируем работу с программной памятью
 
 #define BC_NUM_OF(x) (sizeof(x) / sizeof(x[0])) //макрос для подсчета количества объектов в массиве
 
