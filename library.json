@@ -1,6 +1,6 @@
 {
   "name": "BigRus1602.h",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": "LCD, liquidcrystal, display, Russian language, LCD keypad shield",
   "description": "Вывод крупных русских букв на модуль LCDKeypadShield",
   "repository":
