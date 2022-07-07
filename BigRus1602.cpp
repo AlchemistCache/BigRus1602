@@ -50,8 +50,8 @@ void BigRus1602::doScrollText()
 	_lcd->clear();
 }
 
-//#if defined(BC_STRONG_FONT) || defined(BC_SMOOTH_FONT)
-#if !defined(BC_ONLY_NUMBER)
+#if defined(BC_STRONG_FONT) || defined(BC_SMOOTH_FONT)
+
 void BigRus1602::print(char *inputData, uint8_t column)
 {
 	//все пришедшие символы считаем "грязными"
@@ -1234,6 +1234,8 @@ void BigRus1602::write(uint8_t *inputData, uint8_t sizeArr)
 			break;
 
 #endif // FONT
+		default:	//если пришел неизвестный символ
+			break;
 		}
 
 		_column += 4;
